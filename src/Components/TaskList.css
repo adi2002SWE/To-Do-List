@@ -1,0 +1,45 @@
+.TaskList {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 40px;
+  padding: 20px;
+}
+
+.TaskList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.TaskList li {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.TaskList li button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.TaskList li button:hover {
+  background-color: #d3482a;
+}
+
+@media screen and (max-width: 768px) {
+  .TaskList {
+    padding: 10px;
+  }
+
+  .TaskList li {
+    padding: 8px;
+  }
+
+  .TaskList li button {
+    padding: 4px 8px;
+  }
+}
